@@ -1,0 +1,41 @@
+/* Admin.css */
+
+/* Стили для контейнера страницы Admin */
+.admin-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Общие стили для карточек Card в компонентах AdminDevice и AdminType */
+.card {
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+/* Стили для кнопок в компонентах AdminDevice и AdminType */
+.buttype {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #535050;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttype:hover{
+    background-color: #3c3c3c;
+    color: white;
+}
+
+/* Стили для модальных окон (CreateDevice, DeleteDevice, UpdateDevice, CreateType, DeleteType, UpdateType) могут быть добавлены по вашему усмотрению. */

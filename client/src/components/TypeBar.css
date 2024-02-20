@@ -1,0 +1,67 @@
+.grup {
+    padding: 1.2rem 2rem;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: -100px;
+}
+.tipi{
+    font-size: 22px;
+    color: #333238;
+    padding: 0 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.list-group-item.active {
+    background-color: #333238; /* Ваш желаемый цвет для активного элемента */
+    color: white; /* Цвет текста в активном элементе */
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень для активного элемента */
+}
+
+.list-group-item:hover {
+    background-color: #333238; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+    border-color: transparent; /* Цвет рамки при наведении */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+.list-rectangle2 {
+    background: #333238; /* Ваш желаемый цвет фона */
+    color: white; /* Цвет текста */
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 0; /* Убрать закругление */
+    border: none;
+    cursor: pointer;
+}
+
+
+.list-rectangle2:hover {
+    background: #333238; /* Цвет фона при наведении */
+    color:white;
+}
+.grup h4 {
+    font-size: 22px;
+    color: #333238;
+    padding: 0 5px;
+    position: relative;
+    margin-bottom: 10px; /* Увеличьте отступ снизу для разделения от других элементов */
+}
+
+.grup h4:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #333238; /* Ваш желаемый цвет точки */
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    border-radius: 50%; /* Сделайте точку круглой */
+    color:white;
+}
+
+
+
+
+
+
+

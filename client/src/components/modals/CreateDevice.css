@@ -1,0 +1,33 @@
+.custom-dropdown-toggle {
+    background-color: #343a40; /* Задайте желаемый цвет фона */
+    color: white; /* Задайте желаемый цвет текста */
+}
+.custom-dropdown-toggle:focus {
+    background-color: #343a40; /* Задайте желаемый цвет фона */
+    color: white; /* Задайте желаемый цвет текста */
+    outline: none; /* Убирает обводку фокуса */
+}
+.custom-dropdown-toggle:hover {
+    background-color: #343a40; /* Задайте желаемый цвет фона */
+    color: white; /* Задайте желаемый цвет текста */
+}
+.custom-dropdown-menu {
+    background-color: #343a40; /* Задайте желаемый цвет фона выпадающего списка */
+    color: white; /* Задайте желаемый цвет текста выпадающего списка */
+}
+.custom-dropdown-item {
+    color: white; /* Задайте желаемый цвет текста элементов списка */
+}
+
+
+.custom-dropdown-toggle {
+    background-color: #343a40; /* Задайте желаемый цвет фона */
+    color: white; /* Задайте желаемый цвет текста */
+    border-color: transparent; /* Задайте желаемый цвет обводки (фокуса) */
+}
+
+.custom-dropdown-toggle:focus {
+    outline: none; /* Убирает обводку фокуса */
+}
+
+

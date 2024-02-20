@@ -1,0 +1,122 @@
+.dobvkorz {
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(45deg,  rgba(15,11,3,0.6) 50%, rgba(15,11,3,0.6) 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    box-shadow: 0 10px 32px 0 rgba(83,83,83,0.11);
+    transition: .5s;
+}
+.dobvkorz:hover{
+    background-position: 0 0;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(120deg, rgba(15,11,3,0.11) 50%, #333238  100%);
+}
+.kartinka{
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    float: left;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.vivod{
+    width: 1300px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    background-color: white;
+
+}
+.opis{
+    color: black;
+    font-size: 22px;
+    padding: 5px 0px;
+    margin-top: 555px;
+    text-align: center;
+
+}
+
+body {
+    font-family: Arial, sans-serif; /* Выбранный шрифт */
+    line-height: 1.6; /* Интервал между строками */
+}
+
+.opis1 {
+    color: #333; /* Цвет текста */
+    font-weight: bold;
+    font-size: 28px; /* Размер шрифта */
+    padding: 10px 0; /* Внутренние отступы */
+    margin-top: 20px; /* Внешний отступ сверху */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.desc {
+    text-align: justify; /* Выравнивание текста по ширине */
+    margin-top: 20px; /* Внешний отступ сверху */
+    padding: 10px; /* Внутренние отступы */
+
+}
+
+.nazvopis {
+    text-align: center; /* Центрируем текст */
+    margin-bottom: 20px; /* Отступ снизу */
+    position: relative; /* Устанавливаем позицию элемента */
+    font-family: Arial, sans-serif;
+    font-size: 28px; /* Размер шрифта */
+    font-weight: bold;
+
+}
+
+.nazvopis::after {
+    content: ''; /* Добавляем контент для псевдоэлемента */
+    display: block; /* Делаем блочный элемент */
+    width: 130px; /* Ширина полоски */
+    height: 2px; /* Высота полоски */
+    background-color: #333; /* Цвет полоски */
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: -10px; /* Отступ от нижней границы */
+    left: 50%; /* Располагаем по центру */
+    transform: translateX(-50%); /* Смещаем элемент влево на 50% от собственной ширины */
+}
+
+.titlee {
+    font-size: 20px; /* Размер шрифта */
+    font-weight: bold;
+    margin-top: 15px; /* Внешний отступ сверху */
+    color: #333; /* Цвет текста */
+    text-align: center;
+    margin-bottom: 20px; /* Отступ вниз */
+}
+.dfg{
+    display:inline-block;
+
+}
+.ghj, .ghj1 {
+    display: inline-block;
+    color: #333; /* Цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    margin-left: 20px; /* Внешний отступ слева */
+}
+
+.raspolo {
+    margin-top: 20px; /* Внешний отступ сверху */
+    text-align: center; /* Выравнивание по центру */
+    font-weight: bold;
+    font-size: 20px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}
+.karta{
+    margin-left: 15px;
+}
+.df {
+    margin-top: 15px; /* Внешний отступ сверху */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}

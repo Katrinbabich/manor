@@ -1,0 +1,50 @@
+.ms-auto:hover .katalo::after {
+    width: 100%;
+    left: 0;
+    color: white !important;
+
+}
+.navbar1 {
+    background: #333238
+}
+.imya{
+    color: white !important;
+    font-size: 29px;
+    border-style: none;
+    text-decoration: none;
+    background: none;
+}
+.gl::after {
+    width: 100%;
+    left: 0;
+    color: white !important;
+}
+.ms-2{
+    font-size: 21px;
+    border-style: none;
+    position: relative;
+    background: 1px;
+    color: white !important;
+
+}
+.zzz3:hover .ms-2::after {
+    width: 100%;
+    left: 0;
+    color: white !important;
+}
+.ms-2::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color:white !important;
+    left: 50%;
+    bottom: -1px;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+

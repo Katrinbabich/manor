@@ -1,0 +1,35 @@
+.pag1
+{
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 2rem;
+    margin-top: 10px; /* При необходимости, можно изменить это значение */
+    list-style: none;
+}
+.pag:hover{
+    color: white;
+}
+.pag{
+    color:white;
+    text-decoration: none;
+}
+.pag1 a{
+    background: rgba(15,11,3,0.59);
+    color: white;
+}
+:root {
+    --primary: #00FF00; /* Зеленый цвет */
+    --link-color: #00FF00; /* Зеленый цвет для ссылок */
+}
+.pag1 .page-item.active .page-link {
+    background-color: white; /* Замените на ваш желаемый зеленый цвет */
+    color: black; /* Цвет текста в активном элементе */
+    border-color: rgba(15,11,3,0.59); /* Замените на желаемый цвет рамки */
+    border-width: 1px; /* Толщина рамки */
+
+}
+.pag1 .page-item .page-link:hover {
+    background-color: white; /* Цвет фона при наведении */
+    color: black;/* Цвет текста при наведении */
+    order-color: rgba(15,11,3,0.59);/* Цвет рамки при наведении */
+}

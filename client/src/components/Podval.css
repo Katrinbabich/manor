@@ -1,0 +1,89 @@
+/* Базовые стили футера */
+.podval {
+    height: 250px;
+    background: rgba(232, 232, 234, 0.88);
+    display: flex;
+    flex-wrap: wrap; /* Разрешает элементам переноситься на новую строку */
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.god {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.kolper {
+    flex: 1;
+    padding: 0;
+    text-align: left; /* Центрирует текст внутри .kolper */
+}
+
+.nazv {
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 630;
+}
+
+.sin {
+    padding-top: 25px;
+    color: darkgrey;
+}
+
+.koldva, .koltri, .kolchet {
+    flex: 1;
+    text-align: left; /* Центрирует текст внутри .koldva, .koltri, .kolchet */
+}
+
+.koldva ul,
+.koltri ul,
+.kolchet ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.koldva li,
+.koltri li {
+    padding-top: 10px;
+}
+
+.ashka {
+    font-size: 17px;
+    color: black;
+}
+
+.ashka:hover {
+    font-size: 17px;
+    color: darkgrey;
+}
+
+/* Медиа-запрос для экранов шириной до 700px */
+@media screen and (max-width: 700px) {
+    .podval {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .kolper, .koldva, .koltri, .kolchet {
+        flex: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .podval {
+        height: 500px;
+        background: rgba(232, 232, 234, 0.88);
+        display: flex;
+        flex-wrap: wrap; /* Разрешает элементам переноситься на новую строку */
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+    }
+
+}
